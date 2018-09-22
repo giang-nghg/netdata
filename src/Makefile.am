@@ -211,6 +211,7 @@ netdata_SOURCES += \
 	sys_devices_system_node.c \
 	sys_fs_cgroup.c \
 	sys_fs_btrfs.c \
+	proc_drbd.c \
 	$(NULL)
 endif
 endif

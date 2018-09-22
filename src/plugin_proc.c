@@ -63,6 +63,9 @@ static struct proc_module {
         // IPC metrics
         { .name = "ipc", .dim = "ipc", .func = do_ipc },
 
+        // DRBD metrics
+        { .name = "/proc/drbd", .dim = "drbd", .func = do_proc_drbd },
+
         // the terminator of this array
         { .name = NULL, .dim = NULL, .func = NULL }
 };
